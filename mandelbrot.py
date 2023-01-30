@@ -20,6 +20,17 @@ for i in range(256):
   c[c<0] = 0 
   lut[i] = [c] 
 print(lut.shape, lut)
+## Interpolate and plot
+#import matplotlib.pyplot as plt 
+#x_interp = np.linspace(0, 1, 1000)
+#y_interp = interp(x_interp)
+#y_interp[y_interp<0] = 0 
+##y_interp = np.interp(x_interp, x, y)
+#print(y_interp.shape)
+#plt.plot(x_interp, y_interp[:, 0], color='red')
+#plt.plot(x_interp, y_interp[:, 1], color='green')
+#plt.plot(x_interp, y_interp[:, 2], color='blue')
+#plt.show()
 
 
 
